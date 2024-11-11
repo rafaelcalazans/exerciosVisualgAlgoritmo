@@ -1,6 +1,6 @@
 algoritmo "Contagem Regressiva"
 // Função : Fazer contagem regressiva de 30 até 1, marcando os divisiveis de 4
-// Autor :
+// Autor : Rafael Calazans
 // Data : 24/10/2024
 // Seção de Declarações 
 var
