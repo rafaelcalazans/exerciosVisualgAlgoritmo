@@ -1,10 +1,10 @@
-algoritmo "semnome"
+algoritmo "Mostra qual é o salário com acréscimo"
 var
 S, A, NS: real
 inicio
-Escreva("Quanto voc� recebe? ")
+Escreva("Quanto você recebe? ")
 Leia(S)
 A <- (S * 15) / 100
 NS <- S + A
-EscrevaL("Voc� receber� aparti de agora R$:", NS)
+EscrevaL("Você receberá aparti de agora R$:", NS)
 fimalgoritmo
