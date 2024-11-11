@@ -1,14 +1,14 @@
-algoritmo "semnome"
+algoritmo "Calcular a Area e qual Ã© a quantidade de tinta"
 var
 L, A, AREA, LITROS: real
 T: Inteiro
 inicio
 T <- 2
-Escreva("Qual é a largura da parede? ")
+Escreva("Qual Ã© a largura da parede? ")
 Leia(L)
-Escreva("Qual é a altura da parede? ")
+Escreva("Qual Ã© a altura da parede? ")
 Leia(A)
 AREA <- L*A
 LITROS <- AREA/T
-EscrevaL("A area da parede é: ", AREA:4:2, " vou precisar de ", LITROS:4:2, " de tinta")
+EscrevaL("A area da parede Ã©: ", AREA:4:2, " vou precisar de ", LITROS:4:2, " de tinta")
 fimalgoritmo
