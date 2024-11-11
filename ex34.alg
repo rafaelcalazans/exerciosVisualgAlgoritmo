@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "IMC"
 
 var
 ALTURA, PESO, IMC: REAL
