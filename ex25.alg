@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "É um triângulo"
 var
 S1, S2, S3: Real
 Triangulo: Logico
