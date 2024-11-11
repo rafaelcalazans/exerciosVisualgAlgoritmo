@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "ParOuImpar"
 var
 N: inteiro
 inicio
