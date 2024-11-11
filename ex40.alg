@@ -1,12 +1,12 @@
-algoritmo "semnome"
-// Função :
-// Autor :
+algoritmo "Contagem"
+// FunÃ§Ã£o : Mostrar uma contagem de 3 em 3
+// Autor : Rafael Calazans
 // Data : 24/10/2024
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 Cont: Inteiro
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 CONT <- 0
 Repita
       Escreva(CONT)
