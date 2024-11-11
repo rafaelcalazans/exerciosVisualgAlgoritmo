@@ -1,14 +1,14 @@
-algoritmo "semnome"
-// Função :
+algoritmo "Contagem"
+// FunÃ§Ã£o : Pedir ao usuario u nÃºmero inteiro e positivo e mostra a contagem
 // Autor :
 // Data : 24/10/2024
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 Cont, N: Inteiro
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 Cont <- 1
-Escreva("Me de um número inteiro e positivo! ")
+Escreva("Me de um nÃºmero inteiro e positivo! ")
 Leia(N)
 Enquanto (Cont <= N) faca
          Escreva(Cont)
