@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "AlistamentoMilitar"
 var
 AnoAtual, AnoNasc, Idade, AnosFaltam, AnosPassaram: inteiro
 inicio
@@ -12,7 +12,7 @@ Se (Idade < 18) entao
    EscrevaL("Faltam ", AnosFaltam, " anos, para o alistamento")
       senao
            Se (Idade > 18) entao
-               EscrevaL("Já se passaram ", AnosPassaram, " anos, do alistamento")
+               EscrevaL("JÃ¡ se passaram ", AnosPassaram, " anos, do alistamento")
            FimSe
 FimSe
 fimalgoritmo
