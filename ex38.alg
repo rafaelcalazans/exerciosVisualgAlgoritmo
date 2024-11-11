@@ -1,13 +1,13 @@
 algoritmo "CONTAGEM"
-// Função : Mostrar na tela os numeros de 6 a 11
-// Autor :
+// FunÃ§Ã£o : Mostrar na tela os numeros de 6 a 11
+// Autor : Rafael Calazans
 // Data : 24/10/2024
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 //CONT = Contagem
 var
 CONT: Inteiro
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 CONT <- 6
 Enquanto (CONT <= 11) faca
          Escreva(CONT)
