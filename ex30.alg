@@ -1,21 +1,21 @@
-algoritmo "semnome"
-// FunÁ„o :
-// Autor :
+algoritmo "Qual tri√£ngulo √©?"
+// Fun√ß√£o : Definir qual tipo de tri√¢ngulo 
+// Autor : Rafael Calazans
 // Data : 10/10/2024
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 R1, R2, R3: Inteiro
 EQUILATERO, ISOSCELES, ESCALENO: LOGICO
 inicio
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 EscrevaL("------<<<<<<<<<>>>>>>>>>>------")
-EscrevaL("______Qual TRIANGULO È?_______ ")
+EscrevaL("______Qual TRIANGULO √©?_______ ")
 EscrevaL("------<<<<<<<<<>>>>>>>>>>------")
-EscrevaL("Qual È o primeiro segmento de reta? ")
+EscrevaL("Qual √© o primeiro segmento de reta? ")
 Leia(R1)
-EscrevaL("Qual È o segundo segmento de reta? ")
+EscrevaL("Qual √© o segundo segmento de reta? ")
 Leia(R2)
-EscrevaL("Qual È o terceiro segmento de reta? ")
+EscrevaL("Qual √© o terceiro segmento de reta? ")
 Leia(R3)
 EQUILATERO <- (R1 = R2) e (R1 = R3) e (R2 = R3)
 ISOSCELES <- ((R1 = R2) e (R1 <> R3)) ou ((R1 = R3) e (R1 <> R2)) ou ((R2 = R3) e (R2 <> R1))
