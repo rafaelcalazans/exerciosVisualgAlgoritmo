@@ -1,11 +1,11 @@
-algoritmo "semnome"
+algoritmo "Classificação de Terreno"
 
 var
 L, C, AREA: INTEIRO
 inicio
-EscrevaL("Qual � a Largura? ")
+EscrevaL("Qual é a Largura? ")
 Leia(L)
-EscrevaL("Qual � o comprimento?")
+EscrevaL("Qual é o comprimento?")
 Leia(C)
 Area <- L * C
 Se (Area < 100) entao
