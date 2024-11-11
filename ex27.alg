@@ -1,19 +1,19 @@
-algoritmo "semnome"
+algoritmo "Status de notas"
 var
 N1, N2, MEDIA: REAL
 inicio
-EscrevaL("Qual é a primeira nota? ")
+EscrevaL("Qual Ã© a primeira nota? ")
 Leia(N1)
-EscrevaL("Qual é a segunda nota? ")
+EscrevaL("Qual Ã© a segunda nota? ")
 Leia(N2)
 Media <- (N1 + N2) / 2
 Se (Media <= 4.9) entao
    EscrevaL("REPROVADO")
 senao
      Se (Media >= 5.0) e (Media < 6.9) entao
-        EscrevaL("RECUPERAÇÃO")
+        EscrevaL("RECUPERAÃ‡ÃƒO")
      senao
-          EscrevaL("APROVAÇÃO")
+          EscrevaL("APROVAÃ‡ÃƒO")
      FimSe
 Fimse
 fimalgoritmo
