@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "Promo√ß√£o Dias das Mulheres"
 var
 Nome: Caractere
 Valor, desconto, sexo: Real
@@ -9,15 +9,15 @@ Escreva("Qual seu Sexo? ")
 EscrevaL("1 - HOMEM")
 EscrevaL("2 - MULHER")
 Leia(Sexo)
-Escreva("Qual È o valor da compra? ")
+Escreva("Qual √© o valor da compra? ")
 Leia(Valor)
 Se (Sexo)= 1 entao
    Desconto <- Valor - Valor * 5 /100
-   EscrevaL("O valor total È de: R$", desconto)
+   EscrevaL("O valor total √© de: R$", desconto)
 Senao
    Se (Sexo)= 2 entao
    Desconto <- Valor - Valor * 13 / 100
-   EscrevaL("O valor total È de: R$", desconto)
+   EscrevaL("O valor total √© de: R$", desconto)
    FimSe
 FimSe
 fimalgoritmo
