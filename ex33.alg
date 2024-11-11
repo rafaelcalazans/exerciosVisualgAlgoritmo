@@ -1,16 +1,16 @@
-algoritmo "semnome"
-// FunÁ„o :
-// Autor :
+algoritmo "Empr√©stimo banc√°rio"
+// Fun√ß√£o : Calcular valor da presta√ß√£o mensal
+// Autor : Rafael Calazans
 // Data : 10/10/2024
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 Emprestimo, Salario, Meses, Prestacao, Pagamento: Real
 inicio
-EscrevaL("Qual È o valor do Emprestimo? ")
+EscrevaL("Qual √© o valor do Emprestimo? ")
 Leia(Emprestimo)
-EscrevaL("Qual È o seu sal·rio? ")
+EscrevaL("Qual √© o seu sal√°rio? ")
 Leia(Salario)
-EscrevaL("Quantos meses vocÍ vai pagar? ")
+EscrevaL("Quantos meses voc√™ vai pagar? ")
 Leia(Meses)
 Prestacao <- Emprestimo / Meses
 Pagamento <- (Salario * 30) / 100
