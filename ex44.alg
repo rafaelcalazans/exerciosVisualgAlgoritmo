@@ -1,12 +1,12 @@
-algoritmo "semnome"
-// Função :
-// Autor :
+algoritmo "ContagemFinaleIncial"
+// FunÃ§Ã£o : Fazer uma contagem pedindo um nÃºmero de inicio e final e o incremento
+// Autor : Rafael Calazans
 // Data : 24/10/2024
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 A, B, C, Cont: Inteiro
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 Escreva("Digite o Primeiro Valor: ")
 Leia(A)
 Escreva("Digite o Ultimo valor: ")
