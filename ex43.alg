@@ -1,12 +1,12 @@
-algoritmo "semnome"
-// Função :
+algoritmo "Contagem Regressiva"
+// FunÃ§Ã£o : Fazer contagem regressiva de 30 atÃ© 1, marcando os divisiveis de 4
 // Autor :
 // Data : 24/10/2024
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 cont: inteiro
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 Cont <- 30
 Enquanto (COnt >= 1) faca
          Se (Cont % 4=0) entao
