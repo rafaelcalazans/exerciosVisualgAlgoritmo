@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "Qual √© o maior n√∫mero"
 var
 N1, N2: Inteiro
 inicio
@@ -7,12 +7,12 @@ Leia(N1)
 Escreval("Digite o segundo Numero? ")
 Leia(N2)
 Se (N1 > N2) entao
-   EscrevaL("O primeiro valor È o maior:")
+   EscrevaL("O primeiro valor √© o maior:")
 senao
      Se (N2 > N1) entao
-        EscrevaL("O segundo valor È o maior:")
+        EscrevaL("O segundo valor √© o maior:")
      senao
-          EscrevaL("N„o existe valor maior, os dois s„o igauis:")
+          EscrevaL("N√£o existe valor maior, os dois s√£o igauis:")
      FimSe
 Fimse
 fimalgoritmo
