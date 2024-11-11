@@ -1,12 +1,12 @@
-algoritmo "semnome"
-// Função :
-// Autor :
+algoritmo "Contagem"
+// FunÃ§Ã£o : Fazer contagem regressiva aparti do 100 de 5 em 5
+// Autor : Rafael Calazans
 // Data : 24/10/2024
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 Cont: Inteiro
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 CONT <- 100
 Repita
       Escreva(CONT)
