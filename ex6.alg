@@ -1,13 +1,13 @@
-algoritmo "semnome"
+algoritmo "AntecessorEsucessor"
 var
 D, A, S: Inteiro
 inicio
 Escreva("Digite um numero: ")
 Leia(D)
 A <- D - 1
-EscrevaL("O antecessor de ", D, " é ", A)
+EscrevaL("O antecessor de ", D, " Ã© ", A)
 S <- D + 1
-EscrevaL("O sucessor de ", D, " é ", S)
+EscrevaL("O sucessor de ", D, " Ã© ", S)
 
 
 fimalgoritmo
