@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "Calcular a idade para votação"
 var
 Ano, D, V: inteiro
 inicio
@@ -9,7 +9,7 @@ V <- ANO - D
 Se (V >= 18) entao
    EscrevaL("Pode votar!")
 senao
-     EscrevaL("N�o pode votar!")
+     EscrevaL("Não pode votar!")
 FimSe
      
 fimalgoritmo
